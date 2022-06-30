@@ -2,7 +2,7 @@
 
 @media all and (max-width: 800px) {
   .container {
-      display: flex;
+  display: flex;
     }
 
   .bg-image {
