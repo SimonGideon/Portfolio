@@ -2,16 +2,16 @@
 
 @media all and (max-width: 800px) {
   .container {
-  display: flex;
-    }
+    display: flex;
+  }
 
   .bg-image {
-      position: absolute;
-      min-width: 412px;
-      min-height: 587.15px;
-      left: -34px;
-      top: 104px;
-    }
+    position: absolute;
+    min-width: 412px;
+    min-height: 587.15px;
+    left: -34px;
+    top: 104px;
+  }
 
   .toogle-button {
       display: flex;
