@@ -5,6 +5,7 @@
   .container {
     display: flex;
   }
+  
   .bg-image {
     position: absolute;
     min-width: 412px;
@@ -12,6 +13,7 @@
     left: -34px;
     top: 104px;
   }
+  
   .toogle-button {
     display: flex;
     flex-direction: row;
@@ -23,6 +25,7 @@
     right: 24px;
     border-radius: 8px;
     }
+	
   .my-logo {
     display: flex;
     flex-direction: row;
@@ -33,6 +36,7 @@
     height: 40px;
     left: 12px;
   }
+  
   .my-logo a {
     width: 76px;
     height: 20px;
@@ -54,6 +58,7 @@
   section {
     margin-left: 24px;
   }
+  
   .hero-text h2 {
     width: 327px;
     margin-top: 70px;
@@ -71,6 +76,7 @@
     position: relative;
     flex-grow: 0;
   }
+  
   .primary-text2 {
     width: 327px;
     height: 146px;
@@ -84,6 +90,7 @@
     order: 1;
     flex-grow: 0
   }
+  
   .container3 {
     width: 120px;
     height: 24px;
@@ -97,6 +104,7 @@
     order: 0;
     flex-grow: 0;
   }
+  
   .connect-icons {
     width: 170.17px;
     height: 20px;
@@ -105,9 +113,11 @@
     flex-grow: 0;
     justify-content: space-between;
   }
+  
   .container {
     display: flex;
   }
+  
   .bg-image {
     position: absolute;
     min-width: 412px;
@@ -115,6 +125,7 @@
     left: -34px;
     top: 104px;
   }
+  
   .toogle-button {
     display: flex;
     flex-direction: row;
@@ -126,6 +137,7 @@
     right: 24px;
     border-radius: 8px;
   }
+  
   .my-logo {
     display: flex;
     flex-direction: row;
@@ -136,6 +148,7 @@
     height: 40px;
     left: 12px;
   }
+  
   .my-logo a {
     width: 76px;
     height: 20px;
@@ -153,9 +166,11 @@
     flex-grow: 0;
     text-decoration: none;
   }
+  
   section {
     margin-left: 24px;
   }
+  
   .hero-text h2 {
     width: 327px;
     margin-top: 70px;
@@ -173,6 +188,7 @@
     position: relative;
     flex-grow: 0;
   }
+  
   .primary-text2 {
     width: 327px;
     height: 146px;
@@ -186,6 +202,7 @@
     order: 1;
     flex-grow: 0
   }
+  
   .container3 {
     width: 120px;
     height: 24px;
@@ -199,6 +216,7 @@
     order: 0;
     flex-grow: 0;
   }
+  
   .connect-icons {
     width: 170.17px;
     height: 20px;
