@@ -6,7 +6,6 @@
   .container {
     display: flex;
   }
-
   .toogle-button {
     display: flex;
     flex-direction: row;
@@ -110,13 +109,12 @@
     flex-grow: 0;
     text-decoration: none;
   }
+
   body {
     background-image: url("/images/header-shapes-mobile.svg");
     background-position: absolute;
     background-repeat: no-repeat;
     min-width: 375px;
     height: 718px;
-    left: 0px;
-    top: 0px;
   }
 }
