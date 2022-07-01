@@ -339,13 +339,16 @@
     flex-grow: 0;
     margin-bottom: 12px;
     display: flex;
-    align-items: center; 
+    align-items: center;
+
   }
 
-  .lan-container img, .lan-group {
+  .lan-container img,
+  .lan-group {
     margin-right: 16px;
     margin-left: 16px;
   }
 
 }
+
 
