@@ -5,8 +5,8 @@
   .container {
     display: flex;
   }
-  .toogle-button {
 
+  .toogle-button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
