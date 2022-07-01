@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 @media all and (max-width: 800px) {
-	
   .bg-image {
     position: absolute;
     min-width: 412px;
@@ -11,8 +10,10 @@
     top: 104px;
   }
   .container {
-	display: flex;
+	
+    display: flex;
   }
+  
   .toogle-button {
     display: flex;
     flex-direction: row;
@@ -22,7 +23,7 @@
     width: 40px;
     height: 40px;
     right: 24px;
-    border-radius: 8px;
+	border-radius: 8px;
     }
   .my-logo {
     display: flex;
