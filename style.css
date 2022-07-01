@@ -9,11 +9,11 @@
     left: -34px;
     top: 104px;
   }
-  .container {
 
+  .container {
     display: flex;
   }
-  
+
   .toogle-button {
     display: flex;
     flex-direction: row;
@@ -23,8 +23,9 @@
     width: 40px;
     height: 40px;
     right: 24px;
-	border-radius: 8px;
-    }
+    border-radius: 8px;
+  }
+
   .my-logo {
     display: flex;
     flex-direction: row;
@@ -35,7 +36,7 @@
     height: 40px;
     left: 12px;
   }
-  
+
   section {
     margin-left: 24px;
   }
@@ -69,7 +70,7 @@
     order: 1;
     flex-grow: 0
   }
-  
+
   .container3 {
     width: 120px;
     height: 24px;
@@ -92,7 +93,6 @@
     justify-content: space-between;
   }
 
-
   .my-logo a {
     width: 76px;
     height: 20px;
@@ -113,5 +113,4 @@
   section {
     margin-left: 24px;
   }
-
 }
