@@ -4,15 +4,15 @@
 @media all and (max-width: 800px) {
   .container {
     display: flex;
+	}
+  .bg-image {
+    position: absolute;
+    min-width: 412px;
+    min-height: 587.15px;
+    left: -34px;
+    top: 104px;
     }
-    .bg-image {
-        position: absolute;
-        min-width: 412px;
-        min-height: 587.15px;
-        left: -34px;
-        top: 104px;
-    }
-    .toogle-button {
+   .toogle-button {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
