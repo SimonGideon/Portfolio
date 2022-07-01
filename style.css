@@ -40,6 +40,7 @@
   section {
     margin-left: 24px;
   }
+
   .hero-text h2 {
     width: 327px;
     margin-top: 70px;
@@ -51,12 +52,13 @@
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #172B4D;
+    color: #172B4d;
     flex: end;
     order: 0;
     position: relative;
     flex-grow: 0;
   }
+
   .primary-text2 {
     width: 327px;
     height: 146px;
@@ -68,22 +70,23 @@
     color: #344563;
     flex: none;
     order: 1;
-    flex-grow: 0
+    flex-grow: 0;
   }
 
   .container3 {
     width: 120px;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8Cff;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
+
   .connect-icons {
     width: 170.17px;
     height: 20px;
@@ -104,13 +107,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6070FF;
+    color: #6070ff;
     flex: none;
     order: 0;
     flex-grow: 0;
     text-decoration: none;
-  }
-  section {
-    margin-left: 24px;
   }
 }
