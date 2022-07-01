@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 @media all and (max-width: 1600px) {
-  .bg-image {
-    position: absolute;
-    min-width: 412px;
-    min-height: 587.15px;
-    left: -34px;
-    top: 104px;
-  }
 
   .container {
     display: flex;
@@ -43,7 +36,9 @@
 
   .hero-text h2 {
     width: 327px;
-    margin-top: 70px;
+    margin-top: 114px;
+    margin-bottom: 12px;
+    margin-right: 24px;
     height: 150px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -87,13 +82,15 @@
     flex-grow: 0;
   }
 
-  .connect-icons {
-    width: 170.17px;
+  ul {
+    width: 180.17px;
     height: 20px;
     display: flex;
-    order: 3;
+    order: 1;
     flex-grow: 0;
     justify-content: space-between;
+    list-style: none;
+    margin-left: -50px;
   }
 
   .my-logo a {
@@ -112,5 +109,14 @@
     order: 0;
     flex-grow: 0;
     text-decoration: none;
+  }
+  body {
+    background-image: url("/images/header-shapes-mobile.svg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    min-width: 375px;
+    height: 718px;
+    left: 0px;
+    top: 0px;
   }
 }
