@@ -49,7 +49,6 @@
     flex: end;
     order: 0;
     position: relative;
-    flex-grow: 0;
   }
 
   .primary-text2 {
@@ -62,7 +61,6 @@
     color: #344563;
     flex: none;
     order: 1;
-    flex-grow: 0;
   }
 
   .container3 {
@@ -75,7 +73,6 @@
     color: #7f8cff;
     flex: none;
     order: 0;
-    flex-grow: 0;
   }
 
   .container3 ul {
@@ -83,7 +80,6 @@
     height: 20px;
     display: flex;
     order: 1;
-    flex-grow: 0;
     justify-content: space-between;
     list-style: none;
     margin-left: -50px;
@@ -102,7 +98,6 @@
     color: #6070ff;
     flex: none;
     order: 0;
-    flex-grow: 0;
     text-decoration: none;
   }
 
@@ -127,7 +122,6 @@
     border-radius: 16px;
     flex: none;
     order: 0;
-    flex-grow: 0;
   }
 
   .project1 {
@@ -136,7 +130,6 @@
     border-radius: 8px;
     flex: none;
     order: 0;
-    flex-grow: 0;
   }
 
   .card h3 {
@@ -148,7 +141,6 @@
     color: #172b4d;
     flex: none;
     order: 0;
-    flex-grow: 0;
     margin-top: -12px;
   }
 
@@ -162,7 +154,6 @@
     color: #344563;
     flex: none;
     order: 0;
-    flex-grow: 0;
     margin-top: -20px;
     display: flex;
   }
@@ -187,7 +178,6 @@
     color: #344563;
     flex: none;
     order: 1;
-    flex-grow: 0;
     margin-top: 20px;
   }
 
@@ -201,7 +191,6 @@
     color: #6070ff;
     flex: none;
     order: 0;
-    flex-grow: 0;
   }
 
   .tags {
@@ -213,7 +202,6 @@
     height: 24px;
     flex: none;
     order: 2;
-    flex-grow: 0;
     margin-top: 12px;
   }
 
@@ -248,7 +236,6 @@
     color: #396df2;
     flex: none;
     order: 0;
-    flex-grow: 0;
     margin-top: 36px;
     margin-bottom: 28px;
   }
@@ -266,7 +253,6 @@
     color: #172b4d;
     flex: none;
     order: 0;
-    flex-grow: 0;
   }
 
   .basic-intro {
@@ -279,7 +265,6 @@
     color: #344563;
     flex: none;
     order: 1;
-    flex-grow: 0;
     margin-top: 20px;
   }
 
@@ -294,7 +279,6 @@
     border-radius: 8px;
     flex: none;
     order: 3;
-    flex-grow: 0;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -336,7 +320,6 @@
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
-    flex-grow: 0;
     margin-bottom: 12px;
     display: flex;
     align-items: center;
