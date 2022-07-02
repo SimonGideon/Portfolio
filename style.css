@@ -128,7 +128,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-top: 114px;
   }
 
   .project1 {
@@ -318,6 +317,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 24px;
+    justify-content: space-between;
   }
 
   .lan-container ul {
@@ -342,9 +342,37 @@
     align-items: center;
   }
 
-  .lan-container img,
-  .lan-group {
+  .lan-container img {
     margin-right: 16px;
     margin-left: 16px;
+    display: flex;
+  }
+
+  .topics li {
+    background: transparent;
+  }
+
+  .topics li {
+    box-shadow: 0 4px 2px -2px #dfe1e6;
+    
+  }
+
+  .topics img {
+    transform: rotate(-90deg);
+  }
+
+  .work {
+    display: grid;
+    row-gap: 88px;
+    margin-top: 114px;
+    background: #e5e5e5;
+  }
+
+  .topics li {
+    justify-content: space-between;
+  }
+
+  .topics {
+    margin-bottom: 113.85px;
   }
 }
