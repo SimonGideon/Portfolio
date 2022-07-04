@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +27,7 @@ nav {
   background-image: url("/images/header-shapes-mobile.svg");
   background-repeat: no-repeat;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -37,20 +39,16 @@ nav {
 
 }
 
-
-
 .my-logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-
 }
 
 .container2 {
   margin-top: 114px;
 }
-
 
 .hero-text h2 {
   margin-bottom: 12px;
@@ -71,7 +69,6 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-
 }
 
 .container3 {
@@ -91,14 +88,12 @@ nav {
   margin-top: 30px;
   margin-left: -120px;
   display: flex;
-  
-  
 }
- .container3 li {
-  max-width: 170px;
+
+.container3 li {
   display: flex;
   margin: 10%;
-  
+  max-width: 170px;
  }
 
 .my-logo a {
@@ -139,7 +134,6 @@ nav {
   font-size: 32px;
   color: #172b4d;
   margin-top: 12px;
-  
 }
 
 .client {
@@ -261,12 +255,13 @@ nav {
   line-height: 24px;
   color: #344563;
   margin-top: 20px;
-  margin-top: 20px;
 }
+
 .resume {
   margin-top: -91px;
   margin-bottom: 48px;
 }
+
 .resume button {
   align-items: center;
   height: 48px;
@@ -292,15 +287,12 @@ nav {
   align-items: center;
   margin-bottom: 24px;
   color: #000;
-  
-  
 }
 
 .ln {
   display: flex;
   justify-content: space-between;
   margin-bottom: 36px;
-
 }
 
 .about {
@@ -359,6 +351,7 @@ nav {
 .topics {
   margin-bottom: 113.85px;
 }
+
 section {
   padding: 24px;
 }
