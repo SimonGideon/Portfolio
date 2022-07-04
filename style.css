@@ -318,14 +318,14 @@ nav {
   margin-right: 16px;
 }
 
-.topics {
+.topics li {
   box-shadow: 0 4px 2px -2px #dfe1e6;
   background: transparent;
-  justify-content: space-between;
   display: flex;
   min-height: 72px;
   margin-bottom: 20px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .topics p {
