@@ -36,7 +36,6 @@ nav {
 .toogle-button {
   display: flex;
   padding: 8px;
-
 }
 
 .my-logo {
@@ -94,7 +93,7 @@ nav {
   display: flex;
   margin: 10%;
   max-width: 170px;
- }
+}
 
 .my-logo a {
   height: 20px;
@@ -233,6 +232,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
+  border-top-right-radius: 80px;
 }
 
 .about-primary-text {
@@ -295,10 +295,6 @@ nav {
   margin-bottom: 36px;
 }
 
-.about {
-  border-top-right-radius: 80px;
-}
-
 .lan-container ul {
   font-style: normal;
   font-weight: 500;
@@ -323,11 +319,9 @@ nav {
 }
 
 .topics li {
-  background: transparent;
-}
-
-.topics li {
   box-shadow: 0 4px 2px -2px #dfe1e6;
+  background: transparent;
+  justify-content: space-between;
 }
 
 .topics img {
@@ -342,10 +336,6 @@ nav {
   grid-template-columns: 1fr;
   justify-content: center;
   margin-left: 24px;
-}
-
-.topics li {
-  justify-content: space-between;
 }
 
 .topics {
