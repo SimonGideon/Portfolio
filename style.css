@@ -318,10 +318,18 @@ nav {
   margin-right: 16px;
 }
 
-.topics li {
+.topics {
   box-shadow: 0 4px 2px -2px #dfe1e6;
   background: transparent;
   justify-content: space-between;
+  display: flex;
+  min-height: 72px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.topics p {
+  margin-left: 12px;
 }
 
 .topics img {
@@ -336,10 +344,6 @@ nav {
   grid-template-columns: 1fr;
   justify-content: center;
   margin-left: 24px;
-}
-
-.topics {
-  margin-bottom: 113.85px;
 }
 
 section {
