@@ -289,7 +289,7 @@ nav {
   color: #000;
 }
 
-.ln {
+.ln span {
   display: flex;
   justify-content: space-between;
   margin-bottom: 36px;
@@ -303,8 +303,11 @@ nav {
   list-style: none;
 }
 
-.lan-container li {
-  height: 66.72px;
+.inner-list {
+  display: flex;
+  flex-direction: column;
+}
+.inner-list li {
   background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -318,7 +321,7 @@ nav {
   margin-right: 16px;
 }
 
-.topics li {
+.topics {
   box-shadow: 0 4px 2px -2px #dfe1e6;
   background: transparent;
   display: flex;
@@ -326,10 +329,6 @@ nav {
   margin-bottom: 20px;
   align-items: center;
   justify-content: space-between;
-}
-
-.topics p {
-  margin-left: 12px;
 }
 
 .topics img {
