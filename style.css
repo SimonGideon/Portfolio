@@ -307,6 +307,7 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
 .inner-list li {
   background: #f7f7f9;
   border-radius: 8px;
