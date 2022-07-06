@@ -22,7 +22,7 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Simon Gideon**
 
 - GitHub: [@SimonGideon](https://github.com/SimonGideon)
 - Twitter: [@Simo_Giddy](https://twitter.com/Simo_Giddy)
