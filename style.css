@@ -349,3 +349,62 @@ nav {
 section {
   padding: 24px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 216.85px;
+}
+
+.contact-header {
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-header h1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.contact-header p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  
+}
+
+.form
+input,
+textarea {
+  width: 374px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 15px;
+}
+
+.form input {
+  min-height: 48px;
+}
+
+textarea {
+  height: 170px;
+  width: 374px;
+}
+
+.contacts-section {
+  width: 375px;
+  left: 0px;
+  top: 5410px;
+  background: #6070FF;
+}
