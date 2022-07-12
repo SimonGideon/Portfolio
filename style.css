@@ -267,7 +267,6 @@ nav {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -275,6 +274,7 @@ nav {
   letter-spacing: 0.03em;
   color: #396df2;
   background-color: transparent;
+  padding: 12px;
 }
 
 .lan-txt {
@@ -353,6 +353,7 @@ section {
 .contacts-section {
   padding: 24px;
   border-top-left-radius: 80px;
+  margin-left: -24px;
 }
 
 .wrapper {
@@ -401,7 +402,7 @@ textarea {
 }
 
 .form input {
-  min-height: 48px;
+  height: 30px;
 }
 
 textarea {
@@ -411,7 +412,8 @@ textarea {
 .contacts-section {
   width: 375px;
   background: #6070ff;
-  position: relative;
+  background-image: url("/images/contact-form-shapes-mobile@2x.png");
+  background-repeat: no-repeat;
 }
 
 .sub-btn {
@@ -428,4 +430,19 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
+}
+
+button:hover {
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  color: white;
+}
+
+button:active {
+  background: #2230d2;
+  color: white;
+}
+.sec {
+  background-color: #fff;
+  width: 100%;
 }
