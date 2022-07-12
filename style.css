@@ -235,10 +235,6 @@ nav {
   border-top-right-radius: 80px;
 }
 
-.lan-container:last-child {
-  margin-bottom: 113.85px;
-}
-
 .about-primary-text {
   margin-top: 114px;
   width: 327px;
@@ -351,6 +347,10 @@ nav {
 }
 
 section {
+  padding: 24px;
+}
+
+.contacts-section {
   padding: 24px;
   border-top-left-radius: 80px;
 }
