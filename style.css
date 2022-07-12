@@ -410,7 +410,7 @@ textarea {
   background: #6070ff;
   background-image: url("/images/contact-form-shapes-mobile@2x.png");
   background-repeat: no-repeat;
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .sub-btn {
