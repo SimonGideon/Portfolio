@@ -358,7 +358,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 216.85px;
 }
 
 .contact-header {
@@ -395,7 +394,7 @@ textarea {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  padding: 12px 0;
+  padding: 12px;
 }
 
 .form input {
@@ -408,10 +407,10 @@ textarea {
 
 .contacts-section {
   border-top-left-radius: 80px;
-  max-width: 100%;
   background: #6070ff;
   background-image: url("/images/contact-form-shapes-mobile@2x.png");
   background-repeat: no-repeat;
+  /* max-width: 100%; */
 }
 
 .sub-btn {
