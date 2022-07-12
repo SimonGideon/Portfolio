@@ -273,11 +273,11 @@
             </div>
             <div class="form">
                 <form action="https://formspree.io/f/moqrolqj" method="post">
-                    <input type="text" placeholder="Full names">
-                    <input name="Email" id="email" type="email" placeholder="email">
-                    <textarea id="message" name="message" rows="5" cols="33"> write your message here</textarea>
+                    <input type="text" placeholder="Full names" maxlength="30" required>
+                    <input name="Email" id="email" type="email" placeholder="email" required>
+                    <textarea id="message" name="message" placeholder="write your message here" maxlength="500" required></textarea>
                     <br>
-                    <button type="submit">Get it Touch</button>
+                    <button class="sub-btn" type="submit">Get it Touch</button>
                 </form>
             </div>
         </div>
