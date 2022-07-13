@@ -3,16 +3,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* body */
 body {
   background-color: #e5e5e5;
-  margin: auto;
   background-repeat: no-repeat;
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
+  width: 100%;
+  margin: auto;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -20,13 +19,21 @@ body {
 nav {
   background-color: #fff;
   max-height: 48px;
+  position: relative;
+}
+
+.menu-items {
+  display: none;
+}
+
+#bdy-bg {
+  position: absolute;
+  width: 100%;
 }
 
 .home {
   background-color: #fff;
   border-bottom-left-radius: 90px;
-  background-image: url("/images/header-shapes-mobile.svg");
-  background-repeat: no-repeat;
 }
 
 .container {
@@ -49,6 +56,7 @@ nav {
 
 .container2 {
   margin-top: 114px;
+  position: relative;
 }
 
 .hero-text h2 {
@@ -82,6 +90,7 @@ nav {
   line-height: 24px;
   color: #7f8cff;
   margin-bottom: 168px;
+  position: relative;
 }
 
 .container3 ul {
@@ -214,7 +223,6 @@ nav {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: transparent;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -398,7 +406,7 @@ textarea {
 }
 
 .form input {
-  height: 30px;
+  height: 40px;
 }
 
 textarea {
@@ -457,6 +465,48 @@ button:active {
 }
 
 /* Desktop View */
-@media only screen and (min-width: 768px) {
-  
+@media only screen and (min-width: 800px) {
+  body {
+    width: 100%;
+  }
+
+  .toogle-button img {
+    display: none;
+  }
+
+  .menu-item {
+    display: flex;
+    list-style: none;
+  }
+
+  .container2,
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+    margin-right: 260px;
+    margin-left: 260px;
+  }
+
+  .hero-text h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+
+  .primary-text2 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 12px;
+  }
+
+  .container3 {
+    margin-top: 12px;
+    margin-bottom: 255px;
+  }
+
+  .my-logo {
+    margin-top: 25px;
+  }
 }
