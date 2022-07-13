@@ -455,3 +455,8 @@ button:active {
 .sec {
   background-color: #fff;
 }
+
+/* Desktop View */
+@media only screen and (min-width: 768px) {
+  
+}
