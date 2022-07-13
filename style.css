@@ -84,13 +84,11 @@ nav {
   display: flex;
   flex-direction: column;
   height: 24px;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   margin-bottom: 168px;
-  position: relative;
 }
 
 .container3 ul {
@@ -129,8 +127,6 @@ nav {
 }
 
 .project1 {
-  width: 295px;
-  height: 220px;
   border-radius: 8px;
 }
 
@@ -145,8 +141,6 @@ nav {
 }
 
 .client {
-  width: 55px;
-  height: 16px;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -168,8 +162,6 @@ nav {
 }
 
 .c-primary-text {
-  width: 295px;
-  height: 76px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -177,7 +169,8 @@ nav {
   color: #344563;
   flex: none;
   order: 1;
-  margin-top: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .tags p {
@@ -197,9 +190,7 @@ nav {
   gap: 8px;
   width: 203px;
   height: 24px;
-  flex: none;
   order: 2;
-  margin-top: 12px;
 }
 
 .tags div {
@@ -213,25 +204,19 @@ nav {
 }
 
 .see-proj button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
   padding: 12px;
-  gap: 10px;
   width: 124px;
-  height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: transparent;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-top: 36px;
-  margin-bottom: 28px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .about {
@@ -241,8 +226,6 @@ nav {
   display: flex;
   flex-direction: column;
   border-top-right-radius: 80px;
-  visibility: top;
-  vertical-align: top;
 }
 
 .about-primary-text {
@@ -259,7 +242,6 @@ nav {
 }
 
 .basic-intro {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -302,7 +284,6 @@ nav {
 .ln span {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 36px;
 }
 
 .lan-container ul {
@@ -509,4 +490,56 @@ button:active {
   .my-logo {
     margin-top: 25px;
   }
+
+  .card {
+    flex-direction: row;
+    gap: 22px;
+    padding: 24px;
+    margin: 142px;
+  }
+
+  .project1 img {
+    min-width: 34rem;
+    min-height: 28rem;
+    left: 24px;
+    top: 24px;
+  }
+
+  .myself {
+    margin: 142px;
+    display: flex;
+  }
+
+  .self-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+    align-items: flex-start;
+    height: 392px;
+    left: 142px;
+    top: 3753px;
+    width: 447px;
+    margin-right: 25px;
+  }
+
+  .about-primary-text {
+    margin-top: 0;
+  }
+
+  .inner-list {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .container3 {
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .container3 li {
+    margin-left: 12px;
+  }
+
 }
