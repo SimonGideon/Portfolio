@@ -541,11 +541,6 @@ button:active {
     gap: 12px;
   }
 
-  .container3 {
-    margin-left: 0px;
-    margin-bottom: 48px;
-  }
-
   .contact-header {
     max-width: 36rem;
   }
@@ -558,6 +553,17 @@ button:active {
   .inner-list li {
     min-width: none;width: 122px;
     min-height: 120px;
+  }
+
+  .inner-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cont-2 {
+      margin-left: 0px;
+      margin-bottom: 48px;
   }
 
   }
