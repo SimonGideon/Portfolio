@@ -475,7 +475,6 @@ button:active {
     display: none;
   }
 
-
   .container2,
   .container3 {
     display: flex;
@@ -525,7 +524,7 @@ button:active {
   .self-info {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 1px;
     gap: 24px;
     align-items: flex-start;
     height: 392px;
@@ -555,7 +554,8 @@ button:active {
   }
 
   .inner-list li {
-    min-width: none;width: 122px;
+    min-width: none;
+    width: 122px;
     min-height: 120px;
     display: flex;
     flex-direction: column;
