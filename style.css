@@ -456,14 +456,20 @@ button:active {
   }
 
   .menu-items {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-gap: 100px;
+    display: flex;
     list-style-type: none;
+    gap: 32px;
+    margin-top: 15px;
+    margin-right: -700px;
   }
 
   .menu-items li a{
     text-decoration: none;
+    justify-content: space-between;
+    color: #344563;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
   }
 
   .toggle-button img {
@@ -540,7 +546,6 @@ button:active {
     gap: 12px;
   }
 
-<<<<<<< HEAD
   .contact-header {
     max-width: 36rem;
   }
@@ -565,4 +570,9 @@ button:active {
       margin-left: 0px;
       margin-bottom: 48px;
   }
+
+  .my-logo {
+    margin-top: 15px;
+  }
 }
+
