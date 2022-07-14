@@ -48,9 +48,7 @@ nav {
 }
 
 .my-logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  padding: 5px 5px;
   margin-left: 24px;
 }
 
@@ -112,8 +110,6 @@ nav {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #6070ff;
   text-decoration: none;
@@ -459,14 +455,21 @@ button:active {
     width: 100%;
   }
 
-  .toogle-button img {
+  .menu-items {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 100px;
+    list-style-type: none;
+  }
+
+  .menu-items li a{
+    text-decoration: none;
+  }
+
+  .toggle-button img {
     display: none;
   }
 
-  .menu-item {
-    display: flex;
-    list-style: none;
-  }
 
   .container2,
   .container3 {
@@ -493,10 +496,6 @@ button:active {
   .container3 {
     margin-top: 12px;
     margin-bottom: 255px;
-  }
-
-  .my-logo {
-    margin-top: 25px;
   }
 
   .card {
@@ -541,6 +540,7 @@ button:active {
     gap: 12px;
   }
 
+<<<<<<< HEAD
   .contact-header {
     max-width: 36rem;
   }
@@ -565,6 +565,4 @@ button:active {
       margin-left: 0px;
       margin-bottom: 48px;
   }
-
-  }
-
+}
