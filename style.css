@@ -86,7 +86,6 @@ nav {
   height: 24px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   color: #7f8cff;
   margin-bottom: 168px;
 }
@@ -95,11 +94,16 @@ nav {
   list-style: none;
   display: flex;
   justify-content: start;
-  margin-top: 30px;
+}
+
+.container3 h5 {
+  margin-top: 12px;
 }
 
 .container3 li {
   margin-left: 12px;
+  margin-top: 16px;
+  margin-bottom: 12px;
 }
 
 .my-logo a {
@@ -250,8 +254,8 @@ nav {
 }
 
 .resume {
-  margin-top: -91px;
   margin-bottom: 48px;
+  margin-top: 0px;
 }
 
 .resume button {
@@ -297,6 +301,8 @@ nav {
 .inner-list {
   display: flex;
   flex-direction: column;
+  margin-top: 24px;
+  padding: 12px;
 }
 
 .inner-list li {
@@ -305,6 +311,7 @@ nav {
   margin-bottom: 12px;
   display: flex;
   align-items: center;
+  
 }
 
 .lan-container img {
@@ -534,12 +541,9 @@ button:active {
   }
 
   .container3 {
-    align-items: flex-start;
-    padding: 12px;
+    margin-left: 0px;
+    margin-bottom: 48px;
   }
 
-  .container3 li {
-    margin-left: 12px;
   }
 
-}
