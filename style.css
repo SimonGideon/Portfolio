@@ -354,6 +354,9 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("/images/contact-form-background-shapes.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .contact-header {
@@ -404,8 +407,6 @@ textarea {
 .contacts-section {
   border-top-left-radius: 80px;
   background: #6070ff;
-  background-image: url("/images/contact-form-shapes-mobile@2x.png");
-  background-repeat: no-repeat;
   max-width: 100%;
 }
 
@@ -531,7 +532,7 @@ button:active {
   }
 
   .about-primary-text {
-    margin-top: 0;
+    margin-top: 1px;
   }
 
   .inner-list {
@@ -543,6 +544,20 @@ button:active {
   .container3 {
     margin-left: 0px;
     margin-bottom: 48px;
+  }
+
+  .contact-header {
+    max-width: 36rem;
+  }
+
+  .sub-btn{
+    align-self: center;
+    margin-bottom: 127px;
+  }
+
+  .inner-list li {
+    min-width: none;width: 122px;
+    min-height: 120px;
   }
 
   }
