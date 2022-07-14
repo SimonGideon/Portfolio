@@ -251,7 +251,7 @@ nav {
 
 .resume {
   margin-bottom: 48px;
-  margin-top: 0px;
+  margin-top: 1px;
 }
 
 .resume button {
@@ -307,7 +307,6 @@ nav {
   margin-bottom: 12px;
   display: flex;
   align-items: center;
-  
 }
 
 .lan-container img {
@@ -463,7 +462,7 @@ button:active {
     margin-right: -700px;
   }
 
-  .menu-items li a{
+  .menu-items li a {
     text-decoration: none;
     justify-content: space-between;
     color: #344563;
@@ -558,21 +557,17 @@ button:active {
   .inner-list li {
     min-width: none;width: 122px;
     min-height: 120px;
-  }
-
-  .inner-list li {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   #cont-2 {
-      margin-left: 0px;
-      margin-bottom: 48px;
+    margin-left: 1px;
+    margin-bottom: 48px;
   }
 
   .my-logo {
     margin-top: 15px;
   }
 }
-
