@@ -508,7 +508,9 @@ button:active {
     flex-direction: row;
     gap: 22px;
     padding: 24px;
-    margin: 142px;
+    margin-right: 142px;
+    margin-left: 142px;
+    margin-top: 142px;
   }
 
   .project1 img {
