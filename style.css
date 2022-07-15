@@ -53,14 +53,14 @@ nav {
 }
 
 .container2 {
-  display: flex;
-  flex-direction: column;
   margin-top: 114px;
   position: relative;
 }
 
 .hero-text h2 {
   margin-bottom: 12px;
+  height: 150px;
+  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -126,13 +126,13 @@ nav {
   border-radius: 16px;
 }
 
-.project1 {
+.project1 img {
   border-radius: 8px;
+  width: 100%;
 }
 
+
 .card h3 {
-  width: 295px;
-  height: 36px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -503,7 +503,10 @@ button:active {
   }
 
   .card {
+    box-sizing: border-box;
+    display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 22px;
     padding: 24px;
     margin: 142px;
