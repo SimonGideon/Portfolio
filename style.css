@@ -420,15 +420,15 @@ textarea {
   margin-top: 13px;
 }
 
-.form .sub-btn {
-  margin-left: 24px;
-}
-
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 24px;
+}
+
+.form .sub-btn {
+  margin: 9px;
 }
 
 button:hover {
@@ -555,6 +555,10 @@ button:active {
   .sub-btn {
     align-self: center;
     margin-bottom: 127px;
+  }
+
+  .form .sub-btn {
+    margin: 1px;
   }
 
   .inner-list li {
