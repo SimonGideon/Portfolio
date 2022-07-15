@@ -574,7 +574,7 @@ button:active {
   .my-logo {
     margin-top: 15px;
   }
-  
+
   .form input,
   textarea {
     min-width: 447px;
@@ -584,5 +584,4 @@ button:active {
   .form input {
     max-height: 48px;
   }
-  
 }
