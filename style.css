@@ -130,7 +130,6 @@ nav {
   width: 100%;
 }
 
-
 .card h3 {
   font-style: normal;
   font-weight: 700;
@@ -461,7 +460,6 @@ button:active {
     margin-left: 50%;
   }
 
-
   .menu-items li a {
     text-decoration: none;
     justify-content: space-between;
@@ -586,4 +584,5 @@ button:active {
   .form input {
     max-height: 48px;
   }
+  
 }
