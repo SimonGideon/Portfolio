@@ -459,8 +459,9 @@ button:active {
     list-style-type: none;
     gap: 32px;
     margin-top: 15px;
-    margin-right: -700px;
+    margin-left: 50%;
   }
+
 
   .menu-items li a {
     text-decoration: none;
@@ -531,10 +532,8 @@ button:active {
     padding: 1px;
     gap: 24px;
     align-items: flex-start;
-    height: 392px;
-    left: 142px;
-    top: 3753px;
-    width: 447px;
+    max-height: 392px;
+    max-width: 447px;
     margin-right: 25px;
   }
 
@@ -559,8 +558,8 @@ button:active {
 
   .inner-list li {
     min-width: none;
-    width: 122px;
-    min-height: 120px;
+    max-width: 122px;
+    max-height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
