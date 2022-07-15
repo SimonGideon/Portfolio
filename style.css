@@ -506,7 +506,6 @@ button:active {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 22px;
     padding: 24px;
     margin: 142px;
@@ -573,4 +572,5 @@ button:active {
   .my-logo {
     margin-top: 15px;
   }
+  
 }
