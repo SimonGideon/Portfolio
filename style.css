@@ -59,7 +59,6 @@ nav {
 
 .hero-text h2 {
   margin-bottom: 12px;
-  height: 150px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -70,7 +69,7 @@ nav {
 }
 
 .primary-text2 {
-  height: 146px;
+  max-height: 9rem;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -379,7 +378,7 @@ nav {
 
 .form input,
 textarea {
-  min-width: 310px;
+  max-width: 310px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -491,6 +490,10 @@ button:active {
     font-weight: 700;
   }
 
+  .hero-text {
+    height: fit-content;
+  }
+
   .primary-text2 {
     font-size: 20px;
     line-height: 28px;
@@ -574,4 +577,13 @@ button:active {
     margin-top: 15px;
   }
   
+  .form input,
+  textarea {
+    min-width: 447px;
+    margin-top: 13px;
+  }
+
+  .form input {
+    max-height: 48px;
+  }
 }
