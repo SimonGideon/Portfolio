@@ -50,6 +50,10 @@ nav {
 .my-logo {
   padding: 5px 5px;
   margin-left: 24px;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 .container2 {
@@ -583,5 +587,18 @@ button:active {
 
   .form input {
     max-height: 48px;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 50px, 0);
+    }
+  
+    50%,
+    100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 }
