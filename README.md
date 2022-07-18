@@ -4,6 +4,8 @@
 
 > Creating my portfolio for all the projects worked and skills gathered.
 
+# View Project
+### _click this link to view 👉: [CLICK ME](https://simongideon.github.io/Portfolio/)_
 
 ## Built With
 
