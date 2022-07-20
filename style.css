@@ -351,7 +351,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/contact-form-background-shapes.png");
+  background-image: url("images/contact-form-background-shapes.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -381,7 +381,7 @@ nav {
 
 .form input,
 textarea {
-  width: 327px;
+  max-width: 327px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -394,7 +394,7 @@ textarea {
 }
 
 .form input {
-  height: 40px;
+  max-height: 40px;
 }
 
 textarea {
@@ -481,7 +481,7 @@ button:active {
   .container3 {
     display: flex;
     flex-direction: column;
-    width: 64%;
+    max-width: 64%;
     margin-right: 260px;
     margin-left: 260px;
   }
@@ -493,7 +493,7 @@ button:active {
   }
 
   .hero-text {
-    height: fit-content;
+    max-height: fit-content;
   }
 
   .primary-text2 {
@@ -585,7 +585,7 @@ button:active {
 
   .form input,
   textarea {
-    min-width: 447px;
+    max-width: 447px;
     margin-top: 13px;
   }
 
