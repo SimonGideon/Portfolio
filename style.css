@@ -504,7 +504,7 @@ button:active {
   body {
     width: 100%;
   }
-  
+ 
   .menu-items {
     display: flex;
     list-style-type: none;
