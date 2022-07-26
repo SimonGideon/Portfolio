@@ -446,7 +446,7 @@ form {
 }
 
 .form .sub-btn {
-  margin:  9px 13px;
+  margin: 9px 13px;
 }
 
 button:hover {
@@ -463,7 +463,8 @@ button:active {
 .sec {
   background-color: #fff;
 }
-  /* hamburger */
+
+/* hamburger */
 .bar {
   display: block;
   width: 25px;
@@ -497,6 +498,7 @@ button:active {
   z-index: 70;
   background: #6070ff;
 }
+
 /* Desktop View */
 @media only screen and (min-width: 800px) {
   body {
@@ -692,10 +694,6 @@ button:active {
     font-size: 32px;
     line-height: 44px;
     color: #fff;
-  }
-
-  .nav-item {
-    margin: 16px 0;
   }
 
   .hambuger.active .bar:nth-child(2) {
