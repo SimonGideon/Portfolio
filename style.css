@@ -505,7 +505,7 @@ button:active {
     width: 100%;
   }
 
-  /*nav-item */ 
+  /* nav-item */
   .menu-items {
     display: flex;
     list-style-type: none;
@@ -529,7 +529,7 @@ button:active {
     cursor: pointer;
   }
 
-  /* containers*/ 
+  /* containers */
   .container2,
   .container3 {
     display: flex;
