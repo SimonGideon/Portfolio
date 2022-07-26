@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
 /* body */
 body {
   background-color: #e5e5e5;
@@ -26,6 +34,10 @@ nav {
   display: none;
 }
 
+.nav-menu.active {
+  display: block;
+}
+
 #bdy-bg {
   position: absolute;
   width: 100%;
@@ -38,7 +50,9 @@ nav {
 
 .container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  min-height: 70px;
 }
 
 .toogle-button {
@@ -58,7 +72,6 @@ nav {
 
 .container2 {
   margin-top: 114px;
-  position: relative;
 }
 
 .hero-text h2 {
@@ -351,7 +364,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/contact-form-background-shapes.png");
+  background-image: url("images/contact-form-background-shapes.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -361,6 +374,14 @@ nav {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 103px;
+}
+
+.menu-items li a {
+  transition: 0.7s ease;
+}
+
+.menu-items li a:hover {
+  color: dodgerblue;
 }
 
 .contact-header span {
@@ -381,7 +402,7 @@ nav {
 
 .form input,
 textarea {
-  width: 327px;
+  max-width: 327px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -391,10 +412,11 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   padding: 12px;
+  min-width: 300px;
 }
 
 .form input {
-  height: 40px;
+  max-height: 40px;
 }
 
 textarea {
@@ -432,7 +454,7 @@ form {
 }
 
 .form .sub-btn {
-  margin: 9px;
+  margin: 9px 13px;
 }
 
 button:hover {
@@ -450,18 +472,55 @@ button:active {
   background-color: #fff;
 }
 
+/* hamburger */
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #2230d2;
+}
+
+.hamburger {
+  display: block;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.menu-items.active {
+  left: 0;
+}
+
+#overflow {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 70;
+  background: #6070ff;
+}
+
 /* Desktop View */
 @media only screen and (min-width: 800px) {
   body {
     width: 100%;
   }
 
+  /* nav-item */
   .menu-items {
     display: flex;
     list-style-type: none;
     gap: 32px;
     margin-top: 15px;
     margin-left: 50%;
+    margin-right: 3%;
   }
 
   .menu-items li a {
@@ -473,15 +532,17 @@ button:active {
     font-weight: 500;
   }
 
-  .toggle-button img {
+  .hamburger {
     display: none;
+    cursor: pointer;
   }
 
+  /* containers */
   .container2,
   .container3 {
     display: flex;
     flex-direction: column;
-    width: 64%;
+    max-width: 64%;
     margin-right: 260px;
     margin-left: 260px;
   }
@@ -493,7 +554,7 @@ button:active {
   }
 
   .hero-text {
-    height: fit-content;
+    max-height: 80%;
   }
 
   .primary-text2 {
@@ -565,8 +626,13 @@ button:active {
     margin: 1px;
   }
 
+  .hambuger {
+    display: none;
+    margin-right: 14px;
+    position: sticky;
+  }
+
   .inner-list li {
-    min-width: none;
     max-width: 122px;
     max-height: 120px;
     display: flex;
@@ -604,5 +670,63 @@ button:active {
       opacity: 1;
       transform: translate3d(0, 0, 0);
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    height: 100vh;
+    width: 100%;
+    padding: 3rem;
+    transition: 0.5s;
+    filter: drop-shadow(20px);
+    opacity: 0.95;
+  }
+
+  .nav-item {
+    z-index: 99;
+  }
+
+  .hambuger {
+    margin-right: 14px;
+  }
+
+  .nav-menu .nav-link {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .hambuger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hambuger.active .bar:nth-child(1) {
+    transform: rotate(45deg) translateY(11px);
+    background-color: #fff;
+  }
+
+  .hambuger.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translateY(-11px);
+    background-color: #fff;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .bar.active {
+    left: 0;
+  }
+
+  #bdy-bg {
+    z-index: 1;
   }
 }
