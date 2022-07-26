@@ -25,6 +25,7 @@ nav {
 .menu-items {
   display: none;
 }
+
 .nav-menu.active {
   display: block;
 }
@@ -435,7 +436,6 @@ textarea {
   color: #6070ff;
   align-self: start;
   margin-top: 13px;
-  margin-left: ;
 }
 
 form {
@@ -446,7 +446,7 @@ form {
 }
 
 .form .sub-btn {
-  margin:  9px, 13px;
+  margin:  9px 13px;
 }
 
 button:hover {
@@ -463,16 +463,15 @@ button:active {
 .sec {
   background-color: #fff;
 }
-
   /* hamburger */
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #2230d2;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #2230d2;
   }
 
 .hamburger {
@@ -496,17 +495,14 @@ button:active {
   bottom: 0;
   left: 0;
   z-index: 70;
-  background: #6070FF;
-
+  background: #6070ff;
 }
-
 /* Desktop View */
 @media only screen and (min-width: 800px) {
   body {
     width: 100%;
   }
-
-
+  
   .menu-items {
     display: flex;
     list-style-type: none;
