@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="overflow"></div>
     <nav>
         <div class="container">
             <div class="my-logo">
-                <a href="#">My Logo</a>
+                <a href="#">Simon</a>
             </div>
             <ul class="menu-items">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="nav-item" href="#work">Portfolio</a></li>
+                <li><a class="nav-item" href="#about">About</a></li>
+                <li><a class="nav-item" href="#contact-me">Contact</a></li>
             </ul>
-            <div class="toggle-button">
-                <img src="./images/normal-button.svg" alt="toogle image">
+            <div class="hamburger">
+                <span class="bar" id="bar-1"></span>
+                <span class="bar" id="bar-2"></span>
+                <span class="bar" id="bar-3"></span>
             </div>
         </div>
     </nav>
@@ -69,7 +72,7 @@
             </ul>
         </div>
     </section>
-    <section class="work">
+    <section class="work" id="work">
         <div class="card">
             <div class="project1">
                 <img src="./images/Snapshoot-Portfolio.svg" alt="project1 snap">
@@ -191,7 +194,7 @@
             </div>
         </div>
     </section>
-    <section class="about" >
+    <section class="about" id="about" >
         <div class="myself">
             <div class="self-info">
                 <div class="about-primary-text">
@@ -270,7 +273,7 @@
             </div>
         </div>
     </section>
-        <section class="sec">
+        <section class="sec" id="contact-me">
             <div class="contacts-section">
                 <div class="wrapper">
                     <div class="contact-header">
@@ -291,5 +294,7 @@
                 </div>
             </div>      
     </section>
+    <!-- js file -->
+    <script src="script.js"></script>
 </body>
 </html>
