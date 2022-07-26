@@ -1,22 +1,16 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".menu-items");
-const navlinks = document.querySelectorAll(".nav-item");   
+const hambuger = document.querySelector('.hambuger');
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    document.getElementById("bar-1").style.transform = "translateY(8px) rotate(45deg)";
-    document.getElementById("bar-2").style.opacity = "0";
-    document.getElementById("bar-3").style.transform = "translateY(-8px) rotate(-45deg)";
-    navMenu.style.display = "block";
-    document.querySelector(".my-logo").style.display = "none";
-    document.getElementById("bar-1").style.zIndex = "99";
-    document.getElementById("bar-3").style.zIndex = "99";
-    document.getElementById("bar-3").style.backgroundColor = "#fff";
-    document.getElementById("bar-1").style.backgroundColor = "#fff";
+const navMenu = document.querySelector('.nav-menu');
+
+// const navLinks = document.querySelectorAll(".nav-link");
+
+hambuger.addEventListener('click', () => {
+  hambuger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+  document.getElementById("bdy-bg").style.display = "none";
 });
 
-document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () =>{
-    hambuger.classList.remove("active");
-    navMenu.classList.remove("active");
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hambuger.classList.remove('active');
+  navMenu.classList.remove('active');
 }));
