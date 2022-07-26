@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
 /* body */
 body {
   background-color: #e5e5e5;
@@ -721,12 +729,4 @@ button:active {
   #bdy-bg {
     z-index: 1;
   }
-}
-
-a {
-  text-decoration: none;
-}
-
-.container ul {
-  list-style-type: none;
 }
