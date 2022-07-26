@@ -722,3 +722,11 @@ button:active {
     z-index: 1;
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+.container ul {
+  list-style-type: none;
+}
