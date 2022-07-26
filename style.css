@@ -504,8 +504,8 @@ button:active {
   body {
     width: 100%;
   }
- 
-/*nav-item */
+
+  /* nav-item */
   .menu-items {
     display: flex;
     list-style-type: none;
@@ -528,8 +528,8 @@ button:active {
     display: none;
     cursor: pointer;
   }
-  
-/* containers*/
+
+  /* containers */
   .container2,
   .container3 {
     display: flex;
