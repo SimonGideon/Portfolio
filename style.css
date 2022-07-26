@@ -362,7 +362,7 @@ nav {
 
 .contact-header {
   color: #fff;
-  text-align: center;p
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 103px;
 }
@@ -457,7 +457,7 @@ button:hover {
 
 button:active {
   background: #2230d2;
-  color: #fff;
+  color: white;
 }
 
 .sec {
