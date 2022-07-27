@@ -245,15 +245,12 @@ function popup() {
   document.querySelector('.wrapper-sub-head .work-subtext .canopy').textContent = worksArray[j].subheadText1;
   document.querySelector('.wrapper-sub-head .work-subtext .description').textContent = worksArray[j].subheadText2;
   document.querySelector('.wrapper-sub-head .work-subtext .description2').textContent = worksArray[j].subheadText3;
-
   document.querySelector('.wrapper-img .work-image img').src = worksArray[j].image1;
   document.querySelector('.mdl-fullscreen .work-image-large img').src = worksArray[j].image2;
-
   document.querySelector('.wrapper-text .long-paragraph').textContent = worksArray[j].paragraph;
   document.querySelector('.wrapper-text p .span1').textContent = worksArray[j].language1;
   document.querySelector('.wrapper-text p .span2').textContent = worksArray[j].language2;
   document.querySelector('.wrapper-text p .span3').textContent = worksArray[j].language3;
-
   document.querySelector('.mdl-fullscreen .mdl-text p').textContent = worksArray[j].paragraph2;
   document.querySelector('.mdl-fullscreen .mdl-text p .span4').textContent = worksArray[j].language1;
   document.querySelector('.mdl-fullscreen .mdl-text p .span5').textContent = worksArray[j].language2;
