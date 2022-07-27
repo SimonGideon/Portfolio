@@ -507,7 +507,6 @@ button:active {
   background: #6070ff;
 }
 
-
 /* Desktop View */
 @media only screen and (min-width: 800px) {
   body {
@@ -876,5 +875,3 @@ button:active {
     display: none;
   }
 }
-
-

@@ -95,7 +95,7 @@ const worksArray = [
 hambuger.addEventListener('click', () => {
   hambuger.classList.toggle('active');
   navMenu.classList.toggle('active');
-  document.getElementById("bdy-bg").style.display = "none";  
+  document.getElementById('bdy-bg').style.display='none';
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
