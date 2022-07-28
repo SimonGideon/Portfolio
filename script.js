@@ -292,3 +292,30 @@ btn4.addEventListener('click', () => {
   j = 3;
   popup();
 });
+
+// form validation
+const contactForm = document.querySelector('form');
+const emailValidation = document.getElementById('email');
+const error = document.querySelector('.error');
+
+function mailValidation(input) {
+  const low = input.toLowerCase();
+
+  if (input !== low) {
+    error.innerText = 'Check your email format and try';
+    error.className = 'alert error';
+    return false;
+  }
+  if (input === low) {
+    error.innerText = 'Submitted Succesfully';
+    error.className = 'alert success';
+  }
+  return true;
+}
+contactForm.addEventListener('submit', (e) => {
+  if (mailValidation === false) {
+    e.preventDefault();
+  }
+  mailValidation(emailValidation.value);
+});
+
