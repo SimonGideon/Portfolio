@@ -318,4 +318,3 @@ contactForm.addEventListener('submit', (e) => {
   }
   mailValidation(emailValidation.value);
 });
-
