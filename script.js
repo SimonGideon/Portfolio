@@ -302,7 +302,7 @@ function mailValidation(input) {
   const low = input.toLowerCase();
 
   if (input !== low) {
-    error.innerText = 'Check your email format and try';
+    error.innerText = 'Check your email format and try, the email should be in lowercase';
     error.className = 'alert error';
     return false;
   }
