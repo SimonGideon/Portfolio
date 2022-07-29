@@ -302,19 +302,21 @@ function mailValidation(input) {
   const low = input.toLowerCase();
 
   if (input !== low) {
-    error.innerText = 'Check your email format and try, the email should be in lowercase';
+    error.innerText = 'Check your email format and try';
     error.className = 'alert error';
     return false;
   }
   if (input === low) {
     error.innerText = 'Submitted Succesfully';
     error.className = 'alert success';
+    return true;
   }
-  return true;
 }
 contactForm.addEventListener('submit', (e) => {
-  if (mailValidation === false) {
+  if (mailValidation(emailValidation.value) === false) {
     e.preventDefault();
+  }else {
+    e.run()
   }
-  mailValidation(emailValidation.value);
 });
+
