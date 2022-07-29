@@ -311,6 +311,9 @@ function mailValidation(input) {
   if (input === low) {
     error.innerText = 'Submitted Succesfully';
     error.className = 'alert success';
+    setTimeout(() => {
+      contactForm.submit();
+    }, 5000)
     return 1;
   }
 }
