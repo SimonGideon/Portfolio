@@ -311,12 +311,12 @@ function mailValidation(input) {
   if (input === low) {
     error.innerText = 'Submitted Succesfully';
     error.className = 'alert success';
-    setTimeout(() => {
-      contactForm.submit();
-    }, 5000)
     return 1;
   }
+
+  return null;
 }
+
 contactForm.addEventListener('submit', (e) => {
   if (mailValidation(emailValidation.value) === 0) {
     e.preventDefault();
