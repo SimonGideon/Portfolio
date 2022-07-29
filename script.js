@@ -317,5 +317,7 @@ function mailValidation(input) {
 contactForm.addEventListener('submit', (e) => {
   if (mailValidation(emailValidation.value) === false) {
     e.preventDefault();
-  } else {e.run()}
+  } else {
+    e.run()
+  }
 });
