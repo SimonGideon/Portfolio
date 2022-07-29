@@ -306,18 +306,18 @@ function mailValidation(input) {
     error.className = 'alert error';
     document.getElementById('email').style.border = '3px solid red';
     document.getElementById('email').style.boxShadow = 'box-shadow: 0 0 10px red;';
-    return false;
+    return 0;
   }
   if (input === low) {
     error.innerText = 'Submitted Succesfully';
     error.className = 'alert success';
-    return true;
+    return 1;
   }
 }
 contactForm.addEventListener('submit', (e) => {
-  if (mailValidation(emailValidation.value) === false) {
+  if (mailValidation(emailValidation.value) === 0) {
     e.preventDefault();
   } else {
-    e.run()
+    e.run();
   }
 });
