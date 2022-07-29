@@ -304,6 +304,8 @@ function mailValidation(input) {
   if (input !== low) {
     error.innerText = 'Check your email format and try';
     error.className = 'alert error';
+    document.getElementById('email').style.border = '3px solid red';
+    document.getElementById('email').style.boxShadow = 'box-shadow: 0 0 10px red;';
     return false;
   }
   if (input === low) {
@@ -315,8 +317,7 @@ function mailValidation(input) {
 contactForm.addEventListener('submit', (e) => {
   if (mailValidation(emailValidation.value) === false) {
     e.preventDefault();
-  }else {
+  } else {
     e.run()
   }
 });
-
